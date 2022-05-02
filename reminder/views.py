@@ -1,3 +1,8 @@
-from django.shortcuts import render
+from .models import Birthdays
+from .serializers import BirthdaySerializer
+from rest_framework import viewsets
 
-# Create your views here.
+
+class BirthdaysView(viewsets.ModelViewSet):
+    queryset = Birthdays.objects.all()
+    serializer_class = BirthdaySerializer
