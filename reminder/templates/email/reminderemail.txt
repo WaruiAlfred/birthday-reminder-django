@@ -1,0 +1,3 @@
+Hello {{name}}
+
+Today is your friend's ({{friend}}) birthday.Make an effort to make it special for them.
