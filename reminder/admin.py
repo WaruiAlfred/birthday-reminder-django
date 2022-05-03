@@ -7,7 +7,7 @@ class BirthdaysAdmin(admin.ModelAdmin):
     list_filter = (
         "user",
         "friends_name",
-        "friends_birthdate",
+        "year_of_birth",
     )
 
 
