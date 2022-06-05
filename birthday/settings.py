@@ -178,7 +178,7 @@ EMAIL_HOST_PASSWORD = config('EMAIL_HOST_PASSWORD')
 
 # Django CORS
 CORS_ALLOWED_ORIGINS = [
-"https://birthday-reminder-front.vercel.app/",
+"https://birthday-reminder-front.vercel.app",
 "http://localhost:3000",
 "http://127.0.0.1:3000"
 ]

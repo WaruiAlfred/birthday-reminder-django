@@ -23,6 +23,7 @@ class BirthdaysDataView(viewsets.ModelViewSet):
     queryset = Birthdays.objects.all()
     serializer_class = BirthdayDataSerializer
     permission_classes = (IsAuthenticatedOrReadOnly,)
+    filterset_fields = ['user']
 
 @api_view(["GET"])
 @schema(None)
